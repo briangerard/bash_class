@@ -1,4 +1,5 @@
-bash_examples
+Bash Examples
 =============
 
-Sample functions, aliases, etc
+Sample functions, aliases, etc, from the "bash Tips &> Tricks" class.
+
