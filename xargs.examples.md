@@ -1,5 +1,7 @@
 # xargs(1) Examples #
 
+See also: man xargs
+
 xargs(1) takes stdin and constructs a command from it.
 
 * Run grep(1) on a list of files

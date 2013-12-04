@@ -1,5 +1,7 @@
 # find(1) Examples #
 
+See also: man find
+
 * All items with "something" in their names
     * `find /somewhere -name '*something*'`
 * All files larger than 2 MiB in size

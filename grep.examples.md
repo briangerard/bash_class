@@ -1,5 +1,7 @@
 # grep(1) Examples #
 
+See also: man grep
+
 * Show the lines where a pattern occurs
 	* `grep pattern filename`
 * ...or the ones where it doesn't
