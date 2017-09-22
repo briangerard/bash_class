@@ -28,4 +28,5 @@ xargs(1) takes stdin and constructs a command from it.
     * find /my/logs -mtime +30 -a -type f -print0 | xargs -0 /bin/rm
         * Ensures that find(1) separates its results with NULLs, and that
           xargs(1) looks for a NULL to delimit its incoming arguments.
+        * Added safety if you might run into files with spaces in their names.
 

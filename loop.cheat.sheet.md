@@ -2,7 +2,7 @@
 
 * while:
   <pre>
-    bash$ while (true); do
+    bash$ while true; do
     > echo "hello world"
     > sleep 1
     > done

@@ -11,9 +11,9 @@ bash$ ls -1 /var/log > list_of_logfiles
 bash$ grep -r foo /etc 2> /dev/null
 
 # ...or both...
-bash$ my.script &> ~/output.and.errors
+bash$ my.script >& ~/output.and.errors
 # (same thing)
-bash$ my.script > ~/output.and.errors 2&>1
+bash$ my.script > ~/output.and.errors 2>&1
 </pre>
 
 * Arrays
